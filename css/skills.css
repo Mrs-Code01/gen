@@ -22,26 +22,14 @@ body {
   }
 }
 
-.process {
-  display: flex;
-  width: 95%;
-  margin: 60px auto 0;
-  justify-content: center;
-}
-
-.process>div {
-  width: 150px;
-  height: 70px;
-  background-color: rgb(255, 240, 125);
-  background-color: #ffb235;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
-
-.process>div:not(:last-child) {
-  margin-right: 30px;
+.urge h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: hero, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 60px;
+  letter-spacing: 2px;
+  padding: 0 20px;
 }
 
 .template_container {
@@ -117,6 +105,10 @@ body {
 @media screen and (max-width:600px) {
   .template {
     width: 80%;
+  }
+
+  .urge h2 {
+    font-size: 1.4rem;
   }
 }
 
